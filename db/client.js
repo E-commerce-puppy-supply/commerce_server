@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 
-const connectionString = process.env.DATABASE_URL || 'https://localhost:5432/testing';
+const connectionString = 'https://e-commerce-node.fly.dev' || 'https://localhost:5432/testing';
 
 const client = new Client({
   connectionString,
